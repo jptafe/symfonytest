@@ -6,7 +6,7 @@ CREATE TABLE `author` (
   `Surname` varchar(30) NOT NULL,
   `Nationality` varchar(30) NOT NULL,
   `BirthYear` int(11) unsigned NOT NULL,
-  `DeathYear` int(11) unsigned DEFAULT NULL,
+  `DeathYear` int(11) unsigned,
   PRIMARY KEY (`AuthorID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=113 DEFAULT CHARSET=latin1;
 
