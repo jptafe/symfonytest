@@ -4,7 +4,7 @@ CREATE TABLE `author` (
   `Surname` varchar(30) NOT NULL,
   `Nationality` varchar(30) NOT NULL,
   `BirthYear` int(4) unsigned NOT NULL,
-  `DeathYear` int(4) unsigned,
+  `DeathYear` int(4) unsigned DEFAULT '0',
   PRIMARY KEY (`AuthorID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=113 DEFAULT CHARSET=latin1;
 
